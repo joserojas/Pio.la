@@ -1,6 +1,21 @@
 <p>
+  <b>Name:</b>
+  <%=h @user.name %>
+</p>
+
+<p>
   <b>Login:</b>
   <%=h @user.login %>
+</p>
+
+<p>
+  <b>Twitter ID:</b>
+  <%=h @user.twitter_uid %>
+</p>
+
+<p>
+  <b>Avatar:</b>
+  <%= image_tag @user.avatar_url %>
 </p>
 
 <p>
