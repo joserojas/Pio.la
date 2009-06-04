@@ -122,7 +122,6 @@ The oauth_consumer should return an OAuth::Consumer which is configured for your
 Here are some next steps for the plugin.
 
 1. Safe OAuth error handling.
-2. Add callback for populating user fields with data retrieved from OAuth before account is saved during registration.
 3. Remove oauth request from the Rails request cycle.
 4. Cleaning up OAuth controller and routes when OAuth callback_url parameter is fixed ... or discovered an alternative way of handling it.
 
