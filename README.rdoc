@@ -4,7 +4,7 @@ This is an example of how to use Authlogic to enable OAuth authentication in a r
 
 <b>Please note that there are multiple branches for this example app that show how to do different things in Authlogic.</b>
 
-* This application live: *coming soon*
+* This application live: http://authlogic-oauth.heroku.com
 * Authlogic OAuth: http://github.com/jrallison/authlogic_oauth
 * Authlogic: http://github.com/binarylogic/authlogic
 
