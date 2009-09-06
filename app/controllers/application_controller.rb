@@ -5,6 +5,16 @@ class ApplicationController < ActionController::Base
   helper :all
   helper_method :current_user_session, :current_user
   filter_parameter_logging :password, :password_confirmation
+    
+  def get_date
+    @event = DateTime.now + 20.days
+    @year = @event.year
+    @month = @event.month 
+    @day = @event.day 
+    @hour = @event.hour
+    @minute = @event.min
+  end
+  
   
   private
     def current_user_session
