@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <title>piola: Browser &mdash; Beanstalk</title>
+   <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"/>
+   <link href="http://asset1.beanstalkapp.com/stylesheets/all.css?1251915817" media="screen" rel="stylesheet" type="text/css" />
+   <link href="http://asset1.beanstalkapp.com/stylesheets/print.css?1251915817" media="print" rel="stylesheet" type="text/css" />	
+   <script src="http://asset1.beanstalkapp.com/javascripts/date_helper.js?1251915817" type="text/javascript"></script>
+   <script src="http://asset1.beanstalkapp.com/javascripts/all.js?1251915817" type="text/javascript"></script>
+   
+  </head>
+
+  <body >
+    <div id="container">
+    	<div id="header">
+        
+  
+
+
+        <div class="metanav">  
+  <p class="meta-global">    
+    <a href="http://help.beanstalkapp.com" class="help" title="Help">Help</a>
+    &bull; <a href="/" title="">Dashboard</a>
+  </p> 
+
+  <p class="meta-personal">
+    <em>José Rojas</em>
+    &bull; <a href="/profile/edit" title="">My Profile</a>
+    &bull; <a href="https://piola.beanstalkapp.com/session" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);f.submit();return false;" title="Logout">Logout</a>
+  </p>
+</div>
+        
+        <h1><span class="color-label"><img alt="yellow label" src="http://asset1.beanstalkapp.com/images/label-yellow.gif?1251915817" /></span> piola</h1>
+
+        
+          <ul class="mainnav">
+  
+    <li class="">
+  <a href="/piola" title="Activity"><span>Activity</span></a>
+</li>
+
+<li class="active">
+  <a href="/piola/browse" title="Browse"><span>Browse</span></a>
+</li>
+
+<li class="">
+  <a href="/piola/releases" title="Releases"><span>Releases</span></a>
+</li>
+
+
+  		 
+</ul>
+    		
+    		<form action="/search" id="searchForm" method="get">
+  <fieldset>
+    <input id="searchField" name="q" size="25" type="text" value="Search commits&hellip;" />
+    <input id="r" name="r" type="hidden" value="piola" />
+    <input type="image" value="Go" id="searchBtn" class="search-btn" src="/images/b-search.gif" />
+  </fieldset>
+</form>
+
+<script type="text/javascript">
+//<![CDATA[
+
+  Beanstalk.initSearchForm();
+
+//]]>
+</script>
+    	</div>
+	
+    	<div id="page">
+        
+    
+        
+  <div class="page-toolbar" id="page-toolbar">
+    <script type="text/javascript">
+//<![CDATA[
+      Event.observe(window, 'load', function(){
+        new Ajax.Request('/piola/file_toolbar/trunk/images/flickr.png?rev=4', {asynchronous:true, evalScripts:true})
+      })
+
+//]]>
+</script>
+    
+  <a href="/piola/live/trunk/images/flickr.png" class="button "><span>Preview</span></a>
+
+
+
+  <a href="/piola/download/trunk/images/flickr.png" class="button "><span>Download latest</span></a>
+
+    
+  </div>
+
+    
+        <div class="content">
+              
+          
+            
+ 
+  <div id="notifications" class="notification" style="display:none"></div>
+        
+            
+
+
+
+<div class="browser-path">
+  <a href="/piola/browse?rev=4" title=""><span>~</span><b></b></a><a href="/piola/browse/trunk?rev=4"><span>trunk</span><b></b></a>
+<a href="/piola/browse/trunk/images?rev=4"><span>images</span><b></b></a>
+</div>
+
+<h1 class="browser-breadcrumbs">
+  <strong>flickr.png</strong>
+  
+</h1>
+
+
+<div class="browser-rev">
+  <h2 class="rev-number">
+  	<span class="rev-number-value">
+  	  <a href="/piola/changesets/4" title="See changeset 4">4</a>
+  	</span>
+  	
+    <span class="rev-switcher" id="rev-switcher">
+      <script type="text/javascript">
+//<![CDATA[
+      Event.observe(window, 'load', function(){
+        new Ajax.Request('/piola/file_navigation/trunk/images/flickr.png?rev=4', {asynchronous:true, evalScripts:true})
+      })
+
+//]]>
+</script><img alt="Spinner" height="25" src="http://asset1.beanstalkapp.com/images/spinner.gif?1251915817" width="25" />
+    </span>
+  </h2>  
+	
+  <div class="rev-info-block">
+  <p class="rev-comment">Index completo</p>
+  <p class="rev-user"><strong><img alt="Francisco Rodriguez" class="photo" height="32" src="http://www.gravatar.com/avatar/ed64b8ee2671a6ce7e0ad8f9c5ed3617?s=32&amp;d=http://asset1.beanstalkapp.com/images/users/default.gif?1251915817" width="32" /> Francisco Rodriguez (dgfrancisco)</strong> at 12:46 AM, 09/06/2009</p>
+</div>
+
+</div>
+
+
+  <div style="overflow: auto">
+    <img alt="Flickr" src="http://piola.beanstalkapp.com/piola/preview/4/trunk/images/flickr.png" />
+  </div>
+
+
+        
+          
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="wildbit">
+  <a class="beanstalk-logo" href="http://beanstalkapp.com" title="Beanstalk &nbsp; version control for team leads">&nbsp;</a>
+  <p class="vcard">&copy; 2009, <a href="http://www.wildbit.com/" class="fn org url">Wildbit LLC</a>. All rights reserved.</p>
+  <p><a href="/textpage-privacy.html">Privacy Policy</a> <span class="sep">&bull;</span> <a href="/textpage-terms.html">Terms of Use</a></p>
+</div>    
+      </div>
+
+    </div>
+    
+      
+  </body>
+</html>

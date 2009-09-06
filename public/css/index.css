@@ -1,0 +1,91 @@
+/* ----------------------------------------------------------------
+	RESET CODE
+---------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; font-size: 100%;vertical-align: baseline; border: 0; outline: 0; background: transparent; font-family:Helvetica, Arial, sans-serif;}
+blockquote, q {quotes: none;}
+:focus {outline: 0;}
+table {border-collapse: collapse; border-spacing: 0;}
+.clear { padding:0; margin:0; clear:both;}
+/* ----------------------------------------------------------------
+	HEADER
+---------------------------------------------------------------- */
+.header{background-color:#ffcc00; border-bottom:3px solid #000;}
+.contenedor_header{width:960px; margin:0 auto;}
+.header .marca{ margin:20px 20px 0 0; float:left;}
+.header .marca a{}
+.header h1.eslogan{ clear:both; float:none; width:960px; font-size:30px; color:#c00; margin:10px 0 20px 15px; float:left; letter-spacing:0;}
+.header p{ font-size:12px; margin:25px 0 0 0; float:left; width:350px;}
+.header .hora_piola { width:290px; float:right; margin:20px 0 0 0;}
+.header .hora_piola h6{ font-size:12px; line-height:12px;}
+.header .hora_piola h1{ font-size:60px; line-height:60px; letter-spacing:-5px; color:#000; float:left; margin:0 5px 0 0;}
+.header .hora_piola h5{ float:left; width:90px; display:block; text-align:right;}
+.header .hora_piola .hora_pais {float:left; font-size:12px; font-weight:bold; line-height:12px; margin:0; position:relative; z-index:100; width:120px;}
+.header .hora_piola .hora_pais ul li{float:left; position:relative; list-style:none;}
+.header .hora_piola .hora_pais ul li a.activo{padding:5px 0px 0 10px; color:#c00; text-decoration:none; display:block; height:18px; width:120px;}
+.header .hora_piola .hora_pais ul li:hover a.activo{background-color:#fff; border:1px solid #000; border-bottom:0;}
+.header .hora_piola .hora_pais ul li ul{visibility:hidden; position:absolute; top:17px;left:0; padding:10px; background-color:#fff; z-index:999; border:1px solid #000; border-top:none; width:110px;}
+.header .hora_piola .hora_pais ul li ul li{display:inline; font-size:11px; line-height:12px; padding:3px 0; font-weight:normal; width:110px; list-style-type:square;}
+.header .hora_piola .hora_pais ul li:hover ul, .header .hora_piola .hora_pais ul a:hover ul{visibility:visible;}
+/* ----------------------------------------------------------------
+	FOOTER
+---------------------------------------------------------------- */
+.footer { padding:15px 0 15px 0px; width:960px; margin:0 auto}
+.footer p { font-size:12px; font-weight:bold;}
+.footer p a {color:#000; margin:0 20px; text-decoration:none;}
+.footer p a:hover { text-decoration:underline;}
+.footer p img { margin:0 0 -5px 0;}
+
+/* ----------------------------------------------------------------
+	CONTENEDOR GENERAL
+---------------------------------------------------------------- */
+.contenedor_total {margin:0 auto; display:block; width:960px;}
+
+/* ULTIMA PRESENTACION */
+.ultimo { width:960px; background-color:#fef2c1; margin:0 0 35px 0; float:left;}
+.ultimo .tiempo { width:160px; padding:20px 10px 0 30px; float:left;}
+.ultimo .tiempo h5{ font-size:12px;}
+.ultimo .tiempo h1{ font-size:22px; letter-spacing:-1px; color:#c00;}
+.ultimo .data { width:650px; float:left; border-left:3px solid #ccc; padding:20px 0 20px 20px;}
+.ultimo .data h1{ font-size:24px; line-height:26px; letter-spacing:-1px; margin:0 0 5px 0; font-weight:normal;}
+.ultimo .data h1 a{ text-decoration:none; color:#000;}
+.ultimo .data h1 a:hover { color:#666;}
+.ultimo .data h6{ font-size:12px; line-height:12px; font-weight:normal;}
+.ultimo .data h6 a{ color:#c00; margin:0 5px; text-decoration:none;}		
+.ultimo .data h6 a:hover { text-decoration:underline;}
+.ultimo .agregar_calendario{ width:80px; float:right; padding:20px 0 0 0;}
+.ultimo .agregar_calendario a{ font-size:12px; font-weight:bold; text-decoration:none; color:#000;}
+.ultimo .agregar_calendario a:hover { text-decoration:underline;}
+.ultimo .agregar_calendario a img{ display:block; clear:both;}
+
+/* PRESENTACIONES */
+.presentaciones { width:580px; float:left; margin:0 0 35px 0; border:2px solid #ccc;}
+.presentaciones h2 { font-size:26px; font-weight:bold; padding:10px 10px 10px 20px;}
+.presentaciones .una_presentacion {border-top:2px dotted #ccc; padding:15px 0; margin:0 30px;}
+.presentaciones .una_presentacion img { float:left; margin:1px 10px 0 0;}
+.presentaciones .una_presentacion .data { float:left; width:480px;}
+.presentaciones .una_presentacion .data h1 { font-size:18px; font-weight:normal; line-height:18px; margin:0 0 5px 0;}
+.presentaciones .una_presentacion .data h1 a { text-decoration:none; color:#000;}
+.presentaciones .una_presentacion .data h1 a span { color:#c00;}
+.presentaciones .una_presentacion .data h1 a:hover { text-decoration:underline; color:#c00;}
+.presentaciones .una_presentacion .data h6 { font-size:12px; font-weight:normal;}
+.presentaciones .una_presentacion .data h6 a { color:#c00; text-decoration:none;}
+.presentaciones .una_presentacion .data h6 a:hover { text-decoration:underline;}
+.presentaciones .ver_mas { text-align:right; margin:20px 0 0 0;}
+.presentaciones .ver_mas a{background-color:#fc0; font-size:12px; font-weight:bold; text-align:center; color:#000; text-decoration:none; padding:8px 15px; line-height:30px; margin:10px 10px 0 0;}
+
+/* LOGIN */
+.login { width:350px; float:right; margin:0 0 35px 0;}
+.login .redes { border-top:1px solid #e5e5e5; padding:10px 0 0 0;}
+.login .redes h6 { font-size:12px;}
+.login .redes h6 img{ margin:0 0 -4px 3px;}
+.login button { margin:0 10px 10px 0; border:none; text-align:center; font-weight:bold; cursor:pointer;}
+.login button.ingreso { background:url(../images/bt_ingreso.gif) 0 0 no-repeat; width:86px; padding:4px; *padding:3px 0 5px 0;}
+.login button.registro { background:url(../images/bt_crearcuenta.gif) 0 0 no-repeat; width:154px; padding:4px; *padding:3px 0 5px 0;}
+
+/* PRESENTADORES */
+.presentadores { width:350px; float:right; border:2px solid #ccc; margin:0 0 35px 0; padding:0 0 20px 0;}
+.presentadores h2 { font-size:26px; font-weight:bold; padding:10px 10px 10px 20px;}
+.presentadores ul { padding:0 20px;}
+.presentadores ul li{ list-style:none; float:left; margin:0 3px 3px 3px;}
+
+.sponsors{height:100px; background-color:#CCCCCC; clear:both; float:none;}
