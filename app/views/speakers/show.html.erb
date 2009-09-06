@@ -1,0 +1,53 @@
+<p>
+  <b>Speak time:</b>
+  <%=h @speaker.speak_time %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @speaker.name %>
+</p>
+
+<p>
+  <b>Profile:</b>
+  <%=h @speaker.profile %>
+</p>
+
+<p>
+  <b>Subject:</b>
+  <%=h @speaker.subject %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @speaker.description %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%=h @speaker.tags %>
+</p>
+
+<p>
+  <b>Twitter:</b>
+  <%=h @speaker.twitter_id %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @speaker.email %>
+</p>
+
+<p>
+  <b>Stream url:</b>
+  <%=h @speaker.stream_url %>
+</p>
+
+<p>
+  <b>Stream code:</b>
+  <%=h @speaker.stream_code %>
+</p>
+
+
+<%= link_to 'Edit', edit_speaker_path(@speaker) %> |
+<%= link_to 'Back', speakers_path %>

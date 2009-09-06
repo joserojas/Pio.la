@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  speak_time: 2009-09-06 14:41:53
+  name: MyString
+  profile: MyString
+  subject: MyString
+  description: MyString
+  tags: MyString
+  twitter_id: MyString
+  email: MyString
+  stream_url: MyString
+  stream_code: MyString
+
+two:
+  speak_time: 2009-09-06 14:41:53
+  name: MyString
+  profile: MyString
+  subject: MyString
+  description: MyString
+  tags: MyString
+  twitter_id: MyString
+  email: MyString
+  stream_url: MyString
+  stream_code: MyString

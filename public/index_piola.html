@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title><%= controller.action_name %></title>
+<title> Home - Piola</title>
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 <%= stylesheet_link_tag 'scaffold' %>
 </head>
@@ -11,7 +11,7 @@
 	<div class="header">
 		<div class="contenedor_header">
 			<div class="marca"><a href="#"><img src="images/marca_piola.gif" border="0" /></a></div>
-			<p>Piola BarCamp es una plataforma virtual alrededor de la cual gira una comunidad interesada en la Web y la tecnologÃ­a. En Ã©sta se realiza un evento online cada mes, en el que diferentes personas pueden inscribirse para dar su propia charla. </p>
+			<p>Piola BarCamp es una plataforma virtual alrededor de la cual gira una comunidad interesada en la Web y la tecnología. En ésta se realiza un evento online cada mes, en el que diferentes personas pueden inscribirse para dar su propia charla. </p>
 			<div class="hora_piola">
 				<h6>Hora Piola</h6>
 				<h1>12:30</h1>
@@ -19,7 +19,7 @@
 				<div class="hora_pais">
 					<ul>
 					<li>
-						<a href="#" class="activo">La hora en tu paÃ­s Â»
+						<a href="#" class="activo">La hora en tu país »
                         	<!--[if IE 7]><!--></a><!--<![endif]--><!--[if lte IE 5]><table><tr><td><![endif]-->
                             <ul>
                             	<li>Colombia: 2:00 p.m.</li>
@@ -32,19 +32,19 @@
 				</ul>
 				</div>
 			</div>
-			<h1 class="eslogan">Comunidad de innovadores de AmÃ©rica latina</h1>
+			<h1 class="eslogan">Comunidad de innovadores de América latina</h1>
 			<div class="clear"></div>
 		</div>
 	</div>
 	<div class="contenedor_total">
 		<div class="ultimo">
 			<div class="tiempo">
-				<h5>PrÃ³xima presentaciÃ³n:</h5>
+				<h5>Próxima presentación:</h5>
 				<h1>1hr 25min 30seg</h1>
 			</div>
 			<div class="data">
 				<h1><a href="#">Desarrollo redes sociales en RoR, bases de datos y expreciones exponeneciales para generar ciclos</a></h1>
-				<h6>Tag:<a href="#">ProgramaciÃ³n</a>  -  Por: @dgfrancisco  -  <a href="#">mÃ¡s informaciÃ³n Â»</a> </h6>
+				<h6>Tag:<a href="#">Programación</a>  -  Por: @dgfrancisco  -  <a href="#">más información »</a> </h6>
 			</div>
 			<div class="agregar_calendario">
 				<a href="#"><img src="images/calendario_icon.gif"/>Agregar</a>
@@ -52,16 +52,49 @@
 			<div class="clear"></div>
 		</div>
 		<div class="presentaciones">
-			<h2>Video</h2>
-			<p style="color: green"><%= flash[:notice] %></p>
-
-      <%= yield %>
-			<div class="ver_mas"><a href="#">Ver todas las conferencias Â»</a></div>
+			<h2>Otras presentaciones</h2>
+			<div class="una_presentacion">
+				<a href="#"><img src="images/calendario_icon_mini.gif" border="0" /></a>
+				<div class="data">
+					<h1><a href="#"><span>Programación</span></a>&nbsp;-&nbsp;<a href="#">Principios básicos de programacion
+orientada a objetos en RoR</a></h1>
+					<h6>Hora: 7:50 p.m.  -  Por: @aracena  -  <a href="#">más información »</a> </h6>
+				</div>
+				<div class="clear"></div>
+		  	</div>
+			<div class="una_presentacion">
+				<a href="#"><img src="images/calendario_icon_mini.gif" border="0" /></a>
+				<div class="data">
+					<h1><a href="#"><span>Programación</span></a>&nbsp;-&nbsp;<a href="#">Principios básicos de programacion
+orientada a objetos en RoR</a></h1>
+					<h6>Hora: 7:50 p.m.  -  Por: @aracena  -  <a href="#">más información »</a> </h6>
+				</div>
+				<div class="clear"></div>
+		  	</div>
+			<div class="una_presentacion">
+				<a href="#"><img src="images/calendario_icon_mini.gif" border="0" /></a>
+				<div class="data">
+					<h1><a href="#"><span>Programación</span></a>&nbsp;-&nbsp;<a href="#">Principios básicos de programacion
+orientada a objetos en RoR</a></h1>
+					<h6>Hora: 7:50 p.m.  -  Por: @aracena  -  <a href="#">más información »</a> </h6>
+				</div>
+				<div class="clear"></div>
+		  	</div>
+			<div class="una_presentacion">
+				<a href="#"><img src="images/calendario_icon_mini.gif" border="0" /></a>
+				<div class="data">
+					<h1><a href="#"><span>Programación</span></a>&nbsp;-&nbsp;<a href="#">Principios básicos de programacion
+orientada a objetos en RoR</a></h1>
+					<h6>Hora: 7:50 p.m.  -  Por: @aracena  -  <a href="#">más información »</a> </h6>
+				</div>
+				<div class="clear"></div>
+		  	</div>
+			<div class="ver_mas"><a href="#">Ver todas las conferencias »</a></div>
 		</div>
 		<div class="login">
 			<div class="botones">
 				<button class="ingreso">Ingresar</button>
-				<button class="registro">Crear tu piola Â»</button>
+				<button class="registro">Crear tu piola »</button>
 			</div>
 			<div class="redes">
 				<h6>Siguenos:
@@ -105,7 +138,7 @@
 		<div class="clear"></div>
 	</div>
 	<div class="footer">
-		<p>Copyright 2009 - Pio.la lab<a href="#">Â¿QuiÃ©nes somos?</a>-<a href="#">ContÃ¡ctenos</a>-<a href="#">Terminos y condiciones</a><img src="images/rss_icon.png" /></p>
+		<p>Copyright 2009 - Pio.la lab<a href="#">¿Quiénes somos?</a>-<a href="#">Contáctenos</a>-<a href="#">Terminos y condiciones</a><img src="images/rss_icon.png" /></p>
 	</div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+<h1>Editing speaker</h1>
+
+<% form_for(@speaker) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :speak_time %><br />
+    <%= f.datetime_select :speak_time %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :profile %><br />
+    <%= f.text_field :profile %>
+  </p>
+  <p>
+    <%= f.label :subject %><br />
+    <%= f.text_field :subject %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :tags %><br />
+    <%= f.text_field :tags %>
+  </p>
+  <p>
+    <%= f.label :twitter_id %><br />
+    <%= f.text_field :twitter_id %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :stream_url %><br />
+    <%= f.text_field :stream_url %>
+  </p>
+  <p>
+    <%= f.label :stream_code %><br />
+    <%= f.text_field :stream_code %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @speaker %> |
+<%= link_to 'Back', speakers_path %>

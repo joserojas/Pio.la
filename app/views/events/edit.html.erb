@@ -1,0 +1,32 @@
+<h1>Editing event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :event_date %><br />
+    <%= f.datetime_select :event_date %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :tags %><br />
+    <%= f.text_field :tags %>
+  </p>
+  <p>
+    <%= f.label :hashtag %><br />
+    <%= f.text_field :hashtag %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @event %> |
+<%= link_to 'Back', events_path %>

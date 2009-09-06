@@ -1,0 +1,28 @@
+<p>
+  <b>Event date:</b>
+  <%=h @event.event_date %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @event.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @event.description %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%=h @event.tags %>
+</p>
+
+<p>
+  <b>Hashtag:</b>
+  <%=h @event.hashtag %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

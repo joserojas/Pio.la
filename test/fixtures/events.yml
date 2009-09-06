@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  event_date: 2009-09-06 14:27:37
+  title: MyString
+  description: MyString
+  tags: MyString
+  hashtag: MyString
+
+two:
+  event_date: 2009-09-06 14:27:37
+  title: MyString
+  description: MyString
+  tags: MyString
+  hashtag: MyString
