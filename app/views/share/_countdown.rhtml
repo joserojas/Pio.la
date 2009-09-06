@@ -1,0 +1,28 @@
+<div class="clock">    
+      <div class="days_box">
+        <a href="/" id="days"></a>
+      </div>
+    
+      <div class="hours_box">
+        <a href="/" id="hours"></a>
+      </div>
+    
+      <div class="minutes_box">
+        <a href="/" id="minutes"></a>
+      </div>
+    
+      <div class="seconds_box">
+        <a href="/" id="seconds"></a>
+      </div>
+      <div class="days_hours_minutes_seconds">days hours minutes seconds</div>
+    
+      <script type="text/javascript">
+        var year = <%= @year %>
+        var month = <%= @month %>
+        var day = <%= @day %>
+        var hour = <%= @hour %>
+        var minute = <%= @minute %>
+        countdown(year,month,day,hour,minute)
+      </script>
+  
+</div>
